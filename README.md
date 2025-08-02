@@ -245,6 +245,9 @@ Launcher (основной класс)
 
 ```xml
 <!-- ARSDK разрешения -->
+<uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
 <uses-permission android:name="android.permission.CAMERA" />
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
